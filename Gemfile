@@ -10,6 +10,8 @@ gem 'mysql2'
 gem 'devise'
 # gem for form
 gem 'simple_form'
+# gem for authorization
+gem 'cancan'
 
 #for server
 gem 'execjs'

@@ -1,0 +1,8 @@
+<% if can? :manage, @post %>
+  <%= link_to "Manage", root_path %>
+<% end %>
+
+<% if can? :read, @post %>
+  <%= link_to "Read", root_path %>
+<% end %>
+
